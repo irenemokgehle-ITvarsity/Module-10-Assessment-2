@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>My Recipe Book | Meals</title>
+    <meta charset="UTF-8">
+    <mate name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontAwesome/css/all.css">
+    </head>
+    
+    <body class="body-meals">
+        <div class="header">
+        <a href="index.html">
+            <i class="fas fa-arrow-left"></i>
+            </a>
+            <img src="image/logo-text.png">
+        </div>
+        
+    <div id="meals">
+        
+     <div class="meals-list" id="output">
+         
+        </div>
+        
+     </div>
+        
+        <script>
+            getCategory();
+            
+            function getCategory(){
+                var url = window.location.herf;
+                var pos = url.search("=");
+                
+                console.log(url + " " + pos);
+            }
+        
+        </script>
+    </body>
+</html>
